@@ -1,0 +1,529 @@
+[
+     {
+          "Number": 1,
+          "Rule Name": "K8-API-Server",
+          "Sources": {
+               "from-ip-addresses": [
+                    "172.16.30.0/24"
+               ],
+               "from-workload-groups": [],
+               "from-ipcollections": []
+          },
+          "Destinations": {
+               "to-ip-addresses": [
+                    "172.16.30.0/24"
+               ],
+               "to-workload-groups": [],
+               "to-ipcollections": []
+          },
+          "Action": "Permit",
+          "Protocol Port": "tcp/6443",
+          "Applications": null,
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 60 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 2,
+          "Rule Name": "Core-DNS",
+          "Sources": {
+               "from-ip-addresses": [
+                    "192.168.0.0/16"
+               ],
+               "from-workload-groups": [],
+               "from-ipcollections": []
+          },
+          "Destinations": {
+               "to-ip-addresses": [
+                    "192.168.33.0/24"
+               ],
+               "to-workload-groups": [],
+               "to-ipcollections": []
+          },
+          "Action": "Permit",
+          "Protocol Port": "udp/53",
+          "Applications": null,
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 8408 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 3,
+          "Rule Name": "Allow-BGP",
+          "Sources": {
+               "from-ip-addresses": [
+                    "172.16.30.0/24"
+               ],
+               "from-workload-groups": [],
+               "from-ipcollections": []
+          },
+          "Destinations": {
+               "to-ip-addresses": [
+                    "172.16.30.0/24"
+               ],
+               "to-workload-groups": [],
+               "to-ipcollections": []
+          },
+          "Action": "Permit",
+          "Protocol Port": "tcp/179,8080",
+          "Applications": null,
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 156 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 4,
+          "Rule Name": "To-LB-VIP",
+          "Sources": {
+               "from-ip-addresses": [
+                    "any"
+               ],
+               "from-workload-groups": [],
+               "from-ipcollections": []
+          },
+          "Destinations": {
+               "to-ip-addresses": [
+                    "172.16.30.245-172.16.30.250"
+               ],
+               "to-workload-groups": [],
+               "to-ipcollections": []
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "frontend",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": null
+     },
+     {
+          "Number": 5,
+          "Rule Name": "From-loadgen-to-frontend",
+          "Sources": {
+               "from-ip-addresses": [
+                    "172.16.30.0/24"
+               ],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "12c1876e-5f71-40da-a900-e43b8cfcbb60"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": "tcp/8080",
+          "Applications": null,
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 64 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 6,
+          "Rule Name": "Front-to-checkout",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "0427deea-f64d-4124-b0a9-27e666cf9b6d"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "checkoutservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 7,
+          "Rule Name": "Front-to-adservice",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "6e087ac9-5751-4c12-8c1b-fed6de4a0633"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "adservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 8,
+          "Rule Name": "Front-to-recomendation",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "6b3af488-7576-450b-b31c-2afc152f77d1"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "recommendationservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 9,
+          "Rule Name": "Front-to-cart",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "9391ad66-13d5-4fa0-9855-a24483ddf327"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "cartservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 10,
+          "Rule Name": "Front-to-shipping",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "6c92ad8b-90ad-4763-b7f4-43d4b3e5cff1"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "shippingservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 11,
+          "Rule Name": "Front-to-currency",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "7bcdfa18-7130-443e-ac3c-72a0b6b09f63"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "currencyservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 12,
+          "Rule Name": "Front-to-productcatalog",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "ba3cdc38-d71d-4d8e-ad90-d21bd8ffbf80"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "e9480857-6f2e-424a-b831-14448bab547d"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "productcatalogservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 13,
+          "Rule Name": "Checkout-to-productcatalog",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "0427deea-f64d-4124-b0a9-27e666cf9b6d"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "e9480857-6f2e-424a-b831-14448bab547d"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "productcatalogservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 14,
+          "Rule Name": "Checkout-to-cart",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "0427deea-f64d-4124-b0a9-27e666cf9b6d"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "9391ad66-13d5-4fa0-9855-a24483ddf327"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "cartservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 15,
+          "Rule Name": "Checkout-to-shipping",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "0427deea-f64d-4124-b0a9-27e666cf9b6d"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "6c92ad8b-90ad-4763-b7f4-43d4b3e5cff1"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "shippingservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 16,
+          "Rule Name": "Checkout-to-currency",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "0427deea-f64d-4124-b0a9-27e666cf9b6d"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "7bcdfa18-7130-443e-ac3c-72a0b6b09f63"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "currencyservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 17,
+          "Rule Name": "Checkout-to-payment",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "0427deea-f64d-4124-b0a9-27e666cf9b6d"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "114f0c4f-d494-4e29-b017-cacdfd048a92"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "paymentservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 18,
+          "Rule Name": "Checkout-to-email",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "0427deea-f64d-4124-b0a9-27e666cf9b6d"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "3ed00090-fe3f-4133-955d-57e023dc743b"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "emailservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 19,
+          "Rule Name": "Cart-to-redis-cart",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "9391ad66-13d5-4fa0-9855-a24483ddf327"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "155c418f-24e1-4d2d-ac3c-58085abc8287"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "redis-cart",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 4 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 20,
+          "Rule Name": "Recomendation-to-productcatalog",
+          "Sources": {
+               "from-ip-addresses": [],
+               "from-workload-groups": [],
+               "from-ipcollections": [
+                    "6b3af488-7576-450b-b31c-2afc152f77d1"
+               ]
+          },
+          "Destinations": {
+               "to-ip-addresses": [],
+               "to-workload-groups": [],
+               "to-ipcollections": [
+                    "e9480857-6f2e-424a-b831-14448bab547d"
+               ]
+          },
+          "Action": "Permit",
+          "Protocol Port": null,
+          "Applications": "productcatalogservice",
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 2 CX10K-01-RackA5 DSM 1/2: 0"
+     },
+     {
+          "Number": 21,
+          "Rule Name": "catch-all",
+          "Sources": {
+               "from-ip-addresses": [
+                    "any"
+               ],
+               "from-workload-groups": [],
+               "from-ipcollections": []
+          },
+          "Destinations": {
+               "to-ip-addresses": [
+                    "any"
+               ],
+               "to-workload-groups": [],
+               "to-ipcollections": []
+          },
+          "Action": "Deny",
+          "Protocol Port": "any",
+          "Applications": null,
+          "Description": null,
+          "Status": null,
+          "Labels": null,
+          "Total Connection Hits": "CX10K-01-RackA5 DSM 1/1: 231 CX10K-01-RackA5 DSM 1/2: 0"
+     }
+]

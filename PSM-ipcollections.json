@@ -1,0 +1,158 @@
+[
+     {
+          "Name": "recommendationservice",
+          "IP Addresses": [
+               "192.168.84.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:13:32.566082905Z",
+          "Modification Time": "2024-01-09T01:30:19.160407771Z"
+     },
+     {
+          "Name": "redis-cart",
+          "IP Addresses": [
+               "192.168.4.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:13:48.989728154Z",
+          "Modification Time": "2024-01-09T01:30:01.126529351Z"
+     },
+     {
+          "Name": "shippingservice",
+          "IP Addresses": [
+               "192.168.61.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:14:19.106484508Z",
+          "Modification Time": "2024-01-09T00:14:19.106486479Z"
+     },
+     {
+          "Name": "frontend",
+          "IP Addresses": [
+               "192.168.41.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:14:03.471763152Z",
+          "Modification Time": "2024-01-09T00:14:03.471765369Z"
+     },
+     {
+          "Name": "productcatalogservice",
+          "IP Addresses": [
+               "192.168.118.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:13:17.913134005Z",
+          "Modification Time": "2024-01-09T00:13:17.91313625Z"
+     },
+     {
+          "Name": "paymentservice",
+          "IP Addresses": [
+               "192.168.158.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:13:01.314934363Z",
+          "Modification Time": "2024-01-09T00:13:01.31493681Z"
+     },
+     {
+          "Name": "loadgenerator",
+          "IP Addresses": [
+               "192.168.42.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:12:15.986849465Z",
+          "Modification Time": "2024-01-09T00:12:15.986851857Z"
+     },
+     {
+          "Name": "emailservice",
+          "IP Addresses": [
+               "192.168.65.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:11:58.037144625Z",
+          "Modification Time": "2024-01-09T00:11:58.03714664Z"
+     },
+     {
+          "Name": "currencyservice",
+          "IP Addresses": [
+               "192.168.155.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:11:28.584812369Z",
+          "Modification Time": "2024-01-09T00:11:28.584814397Z"
+     },
+     {
+          "Name": "checkoutservice",
+          "IP Addresses": [
+               "192.168.83.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:11:15.606532486Z",
+          "Modification Time": "2024-01-09T00:11:15.606534553Z"
+     },
+     {
+          "Name": "cartservice",
+          "IP Addresses": [
+               "192.168.234.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:10:46.266951563Z",
+          "Modification Time": "2024-01-09T00:10:46.266953644Z"
+     },
+     {
+          "Name": "adservice",
+          "IP Addresses": [
+               "192.168.45.0/24"
+          ],
+          "IP Collections": [],
+          "Security Policy": [
+               "7a4951f9-ffe6-4861-825e-fb49d0ade32b"
+          ],
+          "NAT Policy": [],
+          "Creation Time": "2024-01-09T00:10:29.816812778Z",
+          "Modification Time": "2024-01-09T00:10:29.816815735Z"
+     }
+]
