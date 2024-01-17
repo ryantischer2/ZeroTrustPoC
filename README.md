@@ -54,6 +54,20 @@ shippingservice	        172.16.30.22/24
 
 12.  Install Kubernetes.  Any "install' or distribution should work.  Highly recommend using k3s
 	- k8S example - https://www.letscloud.io/community/how-to-install-kubernetesk8s-and-docker-on-ubuntu-2004
+		- Initialize the K8-cluster from the Master Node.
+			sudo kubeadm init --apiserver-advertise-address=172.16.30.10 --apiserver-cert-extra-sans=172.16.30.10 --pod-network-cidr=192.168.0.0/16
+		- Follow directions for worker nodes - save token
+  - 		- Once the cluster is Initialized 
+    			 mkdir -p $HOME/.kube
+    			 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+    		  	 sudo chown $(id -u):$(id -g) $HOME/.kube/config
+    		- Deploy the Calico CNI Plugin
+    			- kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/tigera-operator.yaml
+    			- deploy custom resources from (this) git repo
+    				-  kubectl apply -f custom-resources.yaml
+    			
+
+
 	- k3s  - https://docs.k3s.io/quick-start
 
 
