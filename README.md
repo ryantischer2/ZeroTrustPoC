@@ -1,5 +1,62 @@
 # ZeroTrustPoC
 
+1.   Aruba zero trust POC hardware
+  	- Aruba CX10K (2-4) switches
+  	- Aruba CX Spine (83XX or 93XX) (1-2) switches
+     	- Spine/Leaf cabling
+  	- (2-3) servers to run ESXI 
+    		-10g or 25g NICs
+2.  Software Requirements
+	- ESXi 7.x or 8.x
+	- VCenter
+	- Aruba AFC
+	- AMD Policy and Services Controller (PSM)
+	- Kubernetes deployment
+	- Git	
+
+1.   Cable the Spine/Leaf network as follows
+2.   Connect servers to the fabric- 1 Nic only
+3.   Install ESXi on servers
+4.   Install VCenter
+5.   Install AFC via VCenter - LINK
+6.   Install PSM via VCenter - Directions on the Aruba portal
+  	- Discover CX10Ks
+7.   Use AFC to deploy fabric, and configure switch pairs in VSX
+8.   Connect redundant link from servers - Configure
+9.   Build 20 virtual machines with Linux.  Ubuntu 20 worked well.   Use VMware Templates to save time
+   	- If using templates or cloning - download and install (docker and K8s) or K3s - Do not run 'kubeadm init'
+     	- If cloning VM you need to change the 'machine-id' before 'kubeadm init'.  Modify the last two digits to make it unique 
+      		
+		cat /etc/machine-id
+
+		19e2010d4ff249cf937373df45bd1e10
+
+		sudo vim /etc/machine-id
+10.  Change hostname of the VMs to match microservice name (see example below)
+11.  Configure VMs for IP connectivity.   VMs will require access to the Internet
+
+Example
+---------------------------------
+K8-master	            172.16.30.10/24	
+adservice	            172.16.30.11/24	
+cartservice	            172.16.30.12/24	
+checkoutservice	        172.16.30.13/24	
+currencyservice	        172.16.30.14/24	
+emailservice	        172.16.30.15/24	
+frontend	            172.16.30.16/24	
+loadgenerator	        172.16.30.17/24	
+paymentservice	        172.16.30.18/24	
+productcatalogservice	172.16.30.19/24	
+recommendationservice	172.16.30.20/24	
+redis-cart	            172.16.30.21/24	
+shippingservice	        172.16.30.22/24	
+---------------------------------
+
+12.  Install Kubernetes.  Any "install' or distribution should work.  Highly recommend using k3s
+	- k8S example - https://www.letscloud.io/community/how-to-install-kubernetesk8s-and-docker-on-ubuntu-2004
+	- k3s  - https://docs.k3s.io/quick-start
+
+
 1. Cleanup the K8-Cluster, on every single node.
    
     sudo kubeadm reset cleanup-node
