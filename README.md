@@ -1,19 +1,24 @@
 # ZeroTrustPoC
 
-1.   Aruba zero trust POC hardware
+Aruba zero trust 
+
+Hardware Requirements
   	- Aruba CX10K (2-4) switches
   	- Aruba CX Spine (83XX or 93XX) (1-2) switches
      	- Spine/Leaf cabling
   	- (2-3) servers to run ESXI 
     		-10g or 25g NICs
-			
-2.  Software Requirements
+
+Software Requirements
 	- ESXi 7.x or 8.x
 	- VCenter
 	- Aruba AFC
 	- AMD Policy and Services Controller (PSM)
 	- Kubernetes deployment
 	- Git	
+--------------------------------------
+Steps
+--------------------------------------
 
 1.   Cable the Spine/Leaf network as follows
 2.   Connect servers to the fabric- 1 Nic only
