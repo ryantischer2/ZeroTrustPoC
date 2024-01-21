@@ -3,47 +3,50 @@
 Aruba zero trust 
 
 Hardware Requirements
-  	Aruba CX10K (2-4) switches
-  	Aruba CX Spine (83XX or 93XX) (1-2) switches
-    Spine/Leaf cabling
-  	(2-3) servers to run ESXI 
-    	10g or 25g NICs
+<ul>
+<li>Aruba CX10K (2-4) switches</li>
+<li>Aruba CX Spine (83XX or 93XX) (1-2) switches</li>
+<li>Spine/Leaf cabling</li>
+<li>(2-3) servers to run ESXI </li>
+<li>10g or 25g NICs</li>
+</ul>
 
 Software Requirements
-	ESXi 7.x or 8.x
-	VCenter
-	Aruba AFC
-	AMD Policy and Services Controller (PSM)
-	Kubernetes deployment
-	Git	
-
---------------------------------------
+<ul>
+<li>ESXi 7.x or 8.x</li>
+<li>VCenter</li>
+<li>Aruba AFC</li>
+<li>AMD Policy and Services Controller (PSM)</li>
+<li>Kubernetes deployment</li>
+<li>Git	</li>
+</ul>
+---
 Steps
---------------------------------------
+---
 
-1.   Cable the Spine/Leaf network as follows
-2.   Connect servers to the fabric- 1 Nic only
-3.   Install ESXi on servers
-4.   Install VCenter
-5.   Install AFC via VCenter - LINK
-6.   Install PSM via VCenter - Directions on the Aruba portal
-  	- Discover CX10Ks
-7.   Use AFC to deploy fabric, and configure switch pairs in VSX
-8.   Connect redundant link from servers - Configure
-9.   Build 20 virtual machines with Linux.  Ubuntu 20 worked well.   Use VMware Templates to save time
-   	- If using templates or cloning - download and install (docker and K8s) or K3s - Do not run 'kubeadm init'
-     	- If cloning VM you need to change the 'machine-id' before 'kubeadm init'.  Modify the last two digits to make it unique 
-      		
-		cat /etc/machine-id
+1. Cable the Spine/Leaf network as follows
+2. Connect servers to the fabric- 1 Nic only
+3. Install ESXi on servers
+4. Install VCenter
+5. Install AFC via VCenter - LINK
+6. Install PSM via VCenter - Directions on the Aruba portal- Discover CX10Ks
+7. Use AFC to deploy fabric, and configure switch pairs in VSX
+8. Connect redundant link from servers - Configure LCAP
+9. Build 20 virtual machines with Linux.  Ubuntu 20 worked well.   Use VMware clones to save time
+- With clone - download and install (docker and K8s) or K3s in the clone!  **Do not run 'kubeadm init'**
+- After clones boot change the 'machine-id' before 'kubeadm init'.  Modify the last two digits to make it unique.  For example...
 
-		19e2010d4ff249cf937373df45bd1e10
+> cat /etc/machine-id
+>
+> 19e2010d4ff249cf937373df45bd1e10
 
-		sudo vim /etc/machine-id
-10.  Change hostname of the VMs to match microservice name (see example below)
-11.  Configure VMs for IP connectivity.   VMs will require access to the Internet
+> sudo vim /etc/machine-id
 
-Example
----------------------------------
+10. Change hostname of the VMs to match microservice name (see example below)
+11. Configure VMs for IP connectivity.   VMs will require access to the Internet
+
+#### Example VMname and IP addressing
+---
 K8-master	            172.16.30.10/24	
 adservice	            172.16.30.11/24	
 cartservice	            172.16.30.12/24	
