@@ -15,6 +15,9 @@ Hardware Requirements
 <li>10g or 25g NICs</li>
 </ul>
 
+![Poc Hardware config](/readmeIMG/poc%20hardware.png)
+
+
 Software Requirements
 <ul>
 <li>ESXi 7.x or 8.x</li>
@@ -24,6 +27,8 @@ Software Requirements
 <li>Kubernetes deployment</li>
 <li>Git	</li>
 </ul>
+
+![POC software](/readmeIMG/poc%20software.png)
 ---
 Steps
 ---
