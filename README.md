@@ -6,6 +6,7 @@
      	- Spine/Leaf cabling
   	- (2-3) servers to run ESXI 
     		-10g or 25g NICs
+			
 2.  Software Requirements
 	- ESXi 7.x or 8.x
 	- VCenter
