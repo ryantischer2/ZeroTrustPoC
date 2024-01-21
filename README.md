@@ -1,6 +1,10 @@
 # ZeroTrustPoC
 
-Aruba zero trust 
+Aruba zero trust POC
+
+This PoC was designed to test advanced zero trust policy with Aruba CX10000 data center switch.   The PoC demonstrates east-west security for a distributed application running on VMWare ESXi.   Policy is enforced on the Pensando enabled CX10000 for all flows in the datacenter.   The Poc also features testing of flow visibility by generating flow records and IPFIX for all IP flows in the data center
+
+Th PoC is deployed using VMWare and a Google created test application named "Online Boutique"   The application consists of 11 different services, ships with a load generator and runs on Kubernetes.  To simulate non-container (Kubernetes) based deployments each Pod is deployed on a ESXi virtual machine and traffic is forced to a CX10k for policy evaluation and visibility generation (flow and IPFIX)
 
 Hardware Requirements
 <ul>
@@ -191,3 +195,14 @@ Endpoints:         192.168.41.1:8080
 
 22. Use Postman to post the PSM security policy.
 
+####Results
+PSM Policy
+![PSM Policy](/readmeIMG/sp-01.PNG)
+top N with ElKS
+![top n](/readmeIMG/top-n.PNG)
+PSM Apps
+![PSM Apps](/readmeIMG/apps.PNG)
+PSM IP Collections
+![IP Collections](/readmeIMG/ipcollections.PNG)
+PSM Policy evaluation
+![PSM Policy eval](/readmeIMG/polic-eval.PNG)
