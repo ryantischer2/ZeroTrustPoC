@@ -207,7 +207,7 @@ Endpoints:         192.168.41.1:8080
 
 23. Use Postman to post the PSM security policy.
 
-####Results
+#### Results
 PSM Policy
 ![PSM Policy](/readmeIMG/sp-01.PNG)
 top N with ElKS
