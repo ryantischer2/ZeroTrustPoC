@@ -128,6 +128,19 @@ Steps
 
 
 11. Create the following Static routes in the CX10K's.  TODO ?how to get required routes?
+    ip route  192.168.4.0/24   172.16.30.21 vrf pod1 
+    ip route  192.168.33.0/24  172.16.30.10 vrf pod1
+    ip route  192.168.41.0/24  172.16.30.16 vrf pod1 
+    ip route  192.168.42.0/24  172.16.30.17 vrf pod1 
+    ip route  192.168.45.0/24  172.16.30.11 vrf pod1 
+    ip route  192.168.61.0/24  172.16.30.22 vrf pod1 
+    ip route  192.168.65.0/24  172.16.30.15 vrf pod1 
+    ip route  192.168.83.0/24  172.16.30.13 vrf pod1 
+    ip route  192.168.84.0/24  172.16.30.20 vrf pod1 
+    ip route  192.168.118.0/24  172.16.30.19 vrf pod1 
+    ip route  192.168.155.0/24  172.16.30.14 vrf pod1 
+    ip route  192.168.158.0/24  172.16.30.18 vrf pod1 
+    ip route  192.168.234.0/24  172.16.30.12 vrf pod1
 
 > ip route  192.168.4.0/24   172.16.30.21 vrf pod1 
 > ip route  192.168.33.0/24  172.16.30.10 vrf pod1
