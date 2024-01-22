@@ -179,7 +179,8 @@ kubectl label node shippingservice type=shippingservic
 
 ![get pods](/readmeIMG/kubectl%20get%20pods.png)
 
-18.Access the APP from Browser by pointing to Endpoints:
+19.Access the APP from Browser by pointing to Endpoints:
+```
 
  kubectl describe svc frontend
 Name:              frontend
@@ -196,13 +197,15 @@ Port:              http  80/TCP
 TargetPort:        8080/TCP
 Endpoints:         192.168.41.1:8080
 
-19. If the Client is from remote network, make sure the static routes are advertised across the fabric.
+```
 
-20. Use Postman to Post the PSM IP collection and APP collection to PSM.
+20. If the Client is from remote network, make sure the static routes are advertised across the fabric.
 
-21. Edit the IP collection to make sure the Network is same as POD network from Step 13.
+21. Use Postman to Post the PSM IP collection and APP collection to PSM.
 
-22. Use Postman to post the PSM security policy.
+22. Edit the IP collection to make sure the Network is same as POD network from Step 13.
+
+23. Use Postman to post the PSM security policy.
 
 ####Results
 PSM Policy
