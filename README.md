@@ -78,7 +78,7 @@ Steps
 
 #### Install K3S
 - k3s  - https://docs.k3s.io/quick-start
-- Calico multinode with k3s - Deploy Calico as descrbied in K8S section below 
+- [Calico multinode with k3s](https://docs.tigera.io/calico/latest/getting-started/kubernetes/k3s/multi-node-install) - Deploy Calico as descrbied in K8S section below 
 
 #### Install K8S
 - K8S example - https://www.letscloud.io/community/how-to-install-kubernetesk8s-and-docker-on-ubuntu-2004
