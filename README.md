@@ -76,10 +76,11 @@ Steps
 
 12. Install Kubernetes.  Any K8s should work.  To make life easier I highly recommend using k3s
 
-####Install K3S
+#### Install K3S
 - k3s  - https://docs.k3s.io/quick-start
+- Calico multinode with k3s - Deploy Calico as descrbied in K8S section below 
 
-####Install K8S
+#### Install K8S
 - K8S example - https://www.letscloud.io/community/how-to-install-kubernetesk8s-and-docker-on-ubuntu-2004
 - Initialize the K8-cluster from the Master Node.
 >sudo kubeadm init --apiserver-advertise-address=172.16.30.10 --apiserver-cert-extra-sans=172.16.30.10 --pod-network-cidr=192.168.0.0/16
@@ -95,7 +96,7 @@ Steps
 - deploy custom resources from (this) git repo
 >>kubectl apply -f custom-resources.yaml
 
-####If you mess up K8S install 
+#### If you mess up K8S install 
 1. Cleanup the K8-Cluster, on every single node.
 >sudo kubeadm reset cleanup-node
 >sudo rm -rf /etc/cni/net.d 
