@@ -128,7 +128,8 @@ Steps
 
 
 11. Create the following Static routes in the CX10K's.  TODO ?how to get required routes?
-'''
+```
+
 ip route  192.168.4.0/24   172.16.30.21 vrf pod1 
 ip route  192.168.33.0/24  172.16.30.10 vrf pod1
 ip route  192.168.41.0/24  172.16.30.16 vrf pod1 
@@ -142,7 +143,8 @@ ip route  192.168.118.0/24  172.16.30.19 vrf pod1
 ip route  192.168.155.0/24  172.16.30.14 vrf pod1 
 ip route  192.168.158.0/24  172.16.30.18 vrf pod1 
 ip route  192.168.234.0/24  172.16.30.12 vrf pod1
-'''
+```
+
 15. Create LoadBalancer this is optional , we can use the NodeIP too.
 
 >kubectl create  -f https://raw.githubusercontent.com/metallb/metallb/v0.13.12/config/manifests/metallb-native.yaml
@@ -151,7 +153,8 @@ ip route  192.168.234.0/24  172.16.30.12 vrf pod1
  
 16. Apply the label to each node
 
->kubectl label node adservice type=adservice
+```
+kubectl label node adservice type=adservice
 kubectl label node cartservice type=cartservice
 kubectl label node checkoutservice type=checkoutservice
 kubectl label node currencyservice type=currencyservice
@@ -163,6 +166,8 @@ kubectl label node recommendationservice type=recommendationservice
 kubectl label node redis-cart type=redis-cart
 kubectl label node frontend type=frontend
 kubectl label node shippingservice type=shippingservic
+
+```
 
 17. Deploy the Boutique APP 
 
