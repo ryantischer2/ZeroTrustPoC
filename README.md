@@ -103,7 +103,7 @@ Steps
 
 2. Reboot the nodes.
 
-####Configure Kubernetes
+#### Configure Kubernetes
  
  - Apply the custom resource file.
 
@@ -127,11 +127,9 @@ Steps
 ![kubectl get nodes](/readmeIMG/kubectl%20get%20nodes.png)
 
 
-11. Create the following Static routes in the CX10K's.
+11. Create the following Static routes in the CX10K's.  TODO ?how to get required routes?
 
-ip route < network from step13> <next-hop IP is IPv4 IP from Step12> 
-
-ip route  192.168.4.0/24   172.16.30.21 vrf pod1 
+> ip route  192.168.4.0/24   172.16.30.21 vrf pod1 
 ip route  192.168.33.0/24  172.16.30.10 vrf pod1
 ip route  192.168.41.0/24  172.16.30.16 vrf pod1 
 ip route  192.168.42.0/24  172.16.30.17 vrf pod1 
