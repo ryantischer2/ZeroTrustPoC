@@ -1,0 +1,2 @@
+jq 'map(del(.["Security Policy"], .["Creation Time"], .["Modification Time"]))' PSM-ipcollections.json > modified_PSM-ipcollections.json
+jq 'map(del(.["Security Policy"], .["Security Policies"], .["Creation Time"], .["Modification Time"]))' PSM-Apps.json > modified_PSM-Apps.json.json

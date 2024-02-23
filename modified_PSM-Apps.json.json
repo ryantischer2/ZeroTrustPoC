@@ -1,0 +1,9972 @@
+[
+  {
+    "Name": "emailservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5000,8080"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "frontend",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "80"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "shippingservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50051"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "redis-cart",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6379"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "recommendationservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8080"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "productcatalogservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3550"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "paymentservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50051"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "currencyservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "checkoutservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5050"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "cartservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7070"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "adservice",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9555"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "TRACEROUTE",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "33434-33535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "TFTP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "69"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "TELNET",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "23"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SYSLOG",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "514"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SSH",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "22"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SNMP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "161,162"
+        },
+        {
+          "protocol": "udp",
+          "ports": "161,162"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SMTPS",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "465"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SMTP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "25"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SMB",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "445"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SIP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5060"
+        },
+        {
+          "protocol": "udp",
+          "ports": "5060"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "SAMBA",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "139"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "RDP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3389"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "POP3S",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "995"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "POP3",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "110"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "NTP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "123"
+        },
+        {
+          "protocol": "udp",
+          "ports": "123"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "NNTP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "119"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "MYSQL",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3306"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "MS-SQL",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1433,1434"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "LDAP_UDP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "389"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "LDAP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "389"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "L2TP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1701"
+        },
+        {
+          "protocol": "udp",
+          "ports": "1701"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "KERBEROS",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "88,464"
+        },
+        {
+          "protocol": "udp",
+          "ports": "88,464"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "IMAPS",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "993"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "IMAP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "143"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "IKE",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "500,4500"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "HTTP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "80"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "FTP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "21"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "ESP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "ESP"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "DNS",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "53"
+        },
+        {
+          "protocol": "udp",
+          "ports": "53"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "DHCP6",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "546,547"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "DHCP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "67,68"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "DCE-RPC",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        },
+        {
+          "protocol": "udp",
+          "ports": "135"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "BGP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "179"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "ALL_TCP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "ALL_ICMP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "ICMP"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "AH",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "AH"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "RADIUS",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1812,1813"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "HTTPS",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "GRE",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "GRE"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "ALL_UDP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "PING",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "ICMP"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-464_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "464"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-464",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "464"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-445",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "445"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-427",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "427"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-3389",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "3389"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-2535_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "2535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-2535",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "2535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-1812-1813",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1812-1813"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-1521",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1521"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-1434",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1434"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-11514",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "11514"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-111",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "111"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-902",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "902"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-8082",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "8082"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-623",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "623"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-40000-50000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "40000-50000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-38293",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-1270",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1270"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-1-65535",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "traceroute",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "17"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_UDP_Service_38293",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_UDP_Service_2967",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "2967"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_8443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5599-5601",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5599-5601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5191-5300",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5191-5300"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5101-5189",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5101-5189"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5051-5099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5051-5099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5026-5049",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5026-5049"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5001-5024",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5001-5024"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5000-5300__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5190"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5025"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5100"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5050"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5001-5024"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5026-5049"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5051-5099"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5101-5189"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5191-5300"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_38293",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_381-383",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "381-383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_3465",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3465"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_3269",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3269"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_3268",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3268"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_2968",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2968"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_2967",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2967"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_22443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "22443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_135",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_10000-11000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "10000-11000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_OVO_Monitoring_tcp_protocols__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "443"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "10000-11000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "381-383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_NAV_ports_udp__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "2967"
+        },
+        {
+          "protocol": "udp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_NAV_ports_tcp__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2967"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2968"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_MMI-AD_udp_protocols__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "88"
+        },
+        {
+          "protocol": "udp",
+          "ports": "389"
+        },
+        {
+          "protocol": "udp",
+          "ports": "445"
+        },
+        {
+          "protocol": "udp",
+          "ports": "138"
+        },
+        {
+          "protocol": "udp",
+          "ports": "137"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_mcaffee_tcp_ports_out__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8288"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8289"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_mcaffee_tcp_ports_in__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "80"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "443"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8280"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_8289",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "8289"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_8288",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "8288"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_8280",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "8280"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_8244",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "8244"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_38293",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_2967",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "2967"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_137-138__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "138"
+        },
+        {
+          "protocol": "udp",
+          "ports": "137"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_9390-9999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9390-9999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_904-999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "904-999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8876-8887",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8876-8887"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8471-8874",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8471-8874"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8290-8442",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8290-8442"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8288",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8288"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8281-8287",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8281-8287"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8280",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8280"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8244",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8244"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8243",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8243"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8201-8279",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8201-8279"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_82-87",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "82-87"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8180",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8180"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8100-8199",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8100-8199"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8089",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8089"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8011-8079",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8011-8079"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_7778-7999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7778-7999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_71-78",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "71-78"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_7071-7776",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7071-7776"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_7017-7069",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7017-7069"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_7007-7011",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7007-7011"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_6971-6999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6971-6999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_6671-6890",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6671-6890"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_65525-65535",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "65525-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_6375-6659",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6375-6659"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_637-708",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "637-708"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_6348-6373",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6348-6373"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_6130-6345",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6130-6345"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_6064-6128",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6064-6128"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5632-5721",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5632-5721"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5602-5630",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5602-5630"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5601",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5599-5601__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5600"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5599"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5599",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5599"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5556-5598",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5556-5598"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_555-635",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "555-635"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5511-5533",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5511-5533"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5433-5499",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5433-5499"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_541-553",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "541-553"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_54-69",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "54-69"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5301-5431",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5301-5431"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5191-5300",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5191-5300"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_516-523",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "516-523"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5101-5189",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5101-5189"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5051-5099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5051-5099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5026-5049",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5026-5049"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_501-511",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "501-511"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5001-5024",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5001-5024"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5000-5300__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5190"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5025"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5100"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5050"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5001-5024"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5026-5049"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5051-5099"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5101-5189"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5191-5300"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_50-52",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50-52"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_4667-4999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4667-4999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_4663-4665",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4663-4665"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_465-499",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "465-499"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_446-452",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "446-452"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_4445-4660",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4445-4660"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_444",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "444"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_4435-4443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4435-4443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_44004-65523",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "44004-65523"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_413-442",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "413-442"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_4001-4432",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4001-4432"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_390-410",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "390-410"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_384-388",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "384-388"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_38294-44000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "38294-44000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_38293",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_381-383",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "381-383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3804-3999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3804-3999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3802",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3802"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_38-48",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "38-48"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3465",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3465"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3457-3463",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3457-3463"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3307-3388",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3307-3388"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3269",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3269"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3268",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3268"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_31793-38292",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "31793-38292"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_31791",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "31791"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_31789",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "31789"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_31786",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "31786"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3003-3267",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3003-3267"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2999-3000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2999-3000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2969-2997",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2969-2997"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2967",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2967"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_27375-31784",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "27375-31784"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_266-380",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "266-380"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2652-2966",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2652-2966"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2650",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2650"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2627-2648",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2627-2648"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_262-263",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "262-263"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_260",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "260"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_26-36",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "26-36"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_24",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "24"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2300-2625",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2300-2625"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_22444-27373",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "22444-27373"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_211-255",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "211-255"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2050-2298",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2050-2298"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2011-2048",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2011-2048"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1504-1520",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1504-1520"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_144-209",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "144-209"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1435-1493",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1435-1493"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_140-142",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "140-142"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_14",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "14"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_13724",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "13724"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_136-138",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "136-138"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1353-1432",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1353-1432"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1338-1351",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1338-1351"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1244-1336",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1244-1336"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_124-134",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "124-134"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1235-1242",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1235-1242"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1215-1233",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1215-1233"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1213",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1213"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_12063-16383",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12063-16383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_12021-12061",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12021-12061"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_12019-12020",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12019-12020"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_12001-12003",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12001-12003"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_120-122",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "120-122"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_114-118",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "114-118"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1112-1211",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1112-1211"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_111-112",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "111-112"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1082-1096",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1082-1096"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1075-1080",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1075-1080"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1036-1073",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1036-1073"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1032-1034",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1032-1034"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1030",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1030"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1028",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1028"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1026",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1026"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1001-1023",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1001-1023"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_10000-11000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "10000-11000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_10-12",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "10-12"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_SIS_McAfee_server_ports__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3801"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3803"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_OVO_Monitoring_tcp_protocols__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "443"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "10000-11000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "381-383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_NAV_ports_udp__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "2967"
+        },
+        {
+          "protocol": "udp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_NAV_ports_tcp__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2967"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2968"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_MMI-AD_udp_protocols__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "88"
+        },
+        {
+          "protocol": "udp",
+          "ports": "53"
+        },
+        {
+          "protocol": "udp",
+          "ports": "389"
+        },
+        {
+          "protocol": "udp",
+          "ports": "445"
+        },
+        {
+          "protocol": "udp",
+          "ports": "123"
+        },
+        {
+          "protocol": "udp",
+          "ports": "138"
+        },
+        {
+          "protocol": "udp",
+          "ports": "137"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_MMI-AD_tcp_protocols__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "88"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "53"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "389"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "636"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "445"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "139"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1723"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5190"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5025"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5100"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5050"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5001-5024"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5026-5049"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5051-5099"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5101-5189"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5191-5300"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3269"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3268"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_ICMP_Any__GRP",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "6",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_ICMP_6",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "6",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_ICMP_32",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "32",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_ICMP_31",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "31",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "timestamp-reply",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "14",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "timestamp",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "13",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "time-udp",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "37"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "time-tcp",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "37"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "time-exceeded",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "11",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tftp",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "69"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "test-app2",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "21,31"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "test-app-1",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "31,21"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "test",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        }
+      ],
+      "alg": {
+        "type": "msrpc",
+        "msrpc": [
+          {
+            "program-uuid": "145"
+          }
+        ]
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "telnet",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "23"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_all_local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_9997",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9997"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_9898",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9898"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_953",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "953"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_9300",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9300"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_9200",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9200"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_9090",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9090"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8448",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8448"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8444",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8444"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8443-8470",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8443-8470"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8288",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8288"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8280",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8280"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8140",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8140"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8089",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8089"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8084",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8084"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8083",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8083"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8081-8084",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8081-8084"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8081",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8081"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_7520",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7520"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_7507",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7507"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_7500",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7500"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_6514",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6514"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_636",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "636"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_5986",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5986"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_58412",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "58412"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_58325",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "58325"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_58047",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "58047"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_5647",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5647"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_5599-5601",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5599-5601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_55555",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "55555"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_5269",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5269"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_41000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "41000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_4099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_4088",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4088"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_4077",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4077"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_383",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_28443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "28443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_2468",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2468"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_22100-22110",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "22100-22110"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_2048-2051",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2048-2051"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_1984",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1984"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_17472",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "17472"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_17236",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "17236"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_111",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "111"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_1098",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1098"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_1091",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1091"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_1090",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1090"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_1004",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1004"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_1002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp9445",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9445"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp8449",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8449"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp8448",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8448"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp8447-8460",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8447-8460"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp8400-8409",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8400-8409"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp8180",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8180"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp8035",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8035"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp7561",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7561"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp5986",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5986"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp5647",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5647"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp5020",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5020"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp5004",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5004"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp3872",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3872"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp383",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp38080",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "38080"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp3461",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3461"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp2696",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2696"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp2222",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2222"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp1827",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1827"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp1521",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1521"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp1488",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1488"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp14414",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "14414"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp1159",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1159"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-high-ports",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1024-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9997",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9997"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9898",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9898"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9389_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9389"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9389",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9389"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9280",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9280"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9090",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9090"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-903",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "903"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9022",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9022"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9016",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9016"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-879",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "879"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8514",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8514"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8451",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8451"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8449",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8449"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8448",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8448"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8447",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8447"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8444",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8444"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8288-8289",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8288-8289"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8280",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8280"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8244",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8244"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8243-8244",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8243-8244"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8243",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8243"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8140",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8140"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8088",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8088"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8084",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8084"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8080-8200",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8080-8200"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8080",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8080"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-8029",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8029"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-7937-9936",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7937-9936"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-7595",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7595"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-7579",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7579"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-7569",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7569"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-749-750_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "749-750"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-749-750",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "749-750"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-7002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-6516",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6515"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-6008",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6008"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5986",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5986"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5985",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5985"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5912-5920",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5912-5920"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5901",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5901"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5900",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5900"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-587",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "587"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5730",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5730"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5722_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5722"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5722",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5722"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5671",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5671"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5665",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5665"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5647",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5647"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5601",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5600",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5600"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5599-5601",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5599-5601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5599",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5599"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5591-5600",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5591-5600"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5591-5596",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5591-5596"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5555",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5555"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5480",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5480"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5433",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5433"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5223",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5223"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5101",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5101"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5061",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5061"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5053",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5053"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5050",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5050"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5003",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5003"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5001-5005_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5001-5005"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5001",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5001"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-50002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-50001-50016",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50001-50016"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-50001",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50001"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-50000-55000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50000-55000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-5000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-49512-65535",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "49512-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-49152-65535_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "49152-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-49152-65535",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "49152-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-47000-47099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "47000-47099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-464_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "464"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-445",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "445"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-44001-44003_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "44001-44003"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4242",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4242"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-41002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "41002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-41000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "41000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4088",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4088"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4077",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4077"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4012",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4012"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4011",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4011"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4010",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4010"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-40000_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "40000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-40000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "40000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3872",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3872"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3466",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3466"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3461",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3461"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3306",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3306"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3269_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3269"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3269",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3269"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3268_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3268"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3268",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3268"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3128",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3128"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-2990-2999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2990-2999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-28770",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "28770"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-27373",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "27373"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-27017",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "27017"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-25000-26000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "25000-26000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-2468",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2468"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-22223",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "22223"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-2065",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2065"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-2052",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2052"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-2051-2052",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2051-2052"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-2051",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2051"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-20000-21000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "20000-21000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1858",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1858"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1812-1813",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1812-1813"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-17990",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "17990"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-17988",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "17988"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1720",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1720"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1688_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1688"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1688",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1688"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1556",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1556"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1521",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1521"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1503",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1503"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1494",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1494"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1477",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1477"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1433",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1433"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-14070",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "14070"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-14000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "14000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-138",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "138"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-137_Local",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "137"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-13724",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "13724"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-137",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "137"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-135",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-13488",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "13488"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-13088",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "13088"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-12301",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12301"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1158",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1158"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-11514",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "11514"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-111",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "111"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-10100-10200",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "10100-10200"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp--50000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_UDP_Service_38293",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_UDP_Service_2967",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "2967"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_UDP_Service_1270",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1270"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_service_5912-5920",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5912-5920"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_9662-9663",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9662-9663"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_8445",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8445"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_8010",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8010"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_8000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_7804",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7804"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_7777",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7777"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_7510",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7510"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_6800",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6800"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_65301",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "65301"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5902-5910",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5902-5910"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5632",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5632"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5224-5300",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5224-5300"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5201-5222",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5201-5222"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5191-5200",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5191-5200"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5102-5189",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5102-5189"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5081-5099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5081-5099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5062-5079",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5062-5079"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5051-5060",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5051-5060"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5021-5049",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5021-5049"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_50081-50255",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50081-50255"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_50061-50069",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50061-50069"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5006-5010",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5006-5010"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_50041-50059",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50041-50059"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5004-5020",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5004-5020"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5004-5005",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5004-5005"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_50031-50039",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50031-50039"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_50021-50029",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50021-50029"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_50017-50019",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50017-50019"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_4899",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4899"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_4142",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4142"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_4002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_38293",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "38293"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3801",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3801"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3700-3720",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3700-3720"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_35211",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "35211"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3467",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3467"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3465",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3465"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3397-3399",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3397-3399"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3390-3395",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3390-3395"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3307-3388",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3307-3388"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3299",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3299"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3270-3305",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3270-3305"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3219-3267",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3219-3267"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3200-3217",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3200-3217"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_30990-30999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "30990-30999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_2953-2954",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2953-2954"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_2531",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2531"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_2512",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2512"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_2393",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2393"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_22223",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "22223"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_21",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "21"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_2002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_1866",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1866"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_1801",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1801"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_17988",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "17988"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_1434",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1434"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_14020",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "14020"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_14010",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "14010"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_14000-14070",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "14000-14070"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_1270",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1270"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_12670-12689",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12670-12689"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_12551-12556",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12551-12556"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_1144",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1144"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_10443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "10443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_1024-1034",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1024-1034"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_1011",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1011"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_ICMP_6",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "6",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_ICMP_32",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "32",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_ICMP_31",
+    "Configuration": {
+      "proto-ports": [],
+      "alg": {
+        "type": "icmp",
+        "icmp": {
+          "type": "31",
+          "code": "0"
+        }
+      }
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t_05500",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5500"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-COmmandView-51009-51100",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "51009-51100"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9997",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9997"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-995",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "995"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-990",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "990"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9898",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9898"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9678",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9678"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9677",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9677"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9444",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9444"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-902",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "902"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9016",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9016"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-9004",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9004"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8889-8976",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8889-8976"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8880",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8880"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8876-8887",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8876-8887"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8873",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8873"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8808",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8808"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8463",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8463"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8449",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8449"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8448",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8448"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8447-8460",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8447-8460"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8447-8449",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8447-8449"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8447",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8447"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8446",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8446"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8445",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8445"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8444-8874",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8444-8874"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8443-HTTPS",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8400-8409",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8400-8409"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8289",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8289"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8288",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8288"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8280",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8280"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8243",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8243"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8201-8442",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8201-8442"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8201-8203",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8201-8203"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-82",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "82"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8180",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8180"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8090",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8090"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8089-8199",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8089-8199"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8089",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8089"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8088-Proxy",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8088"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8085",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8085"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8084",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8084"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8083-8087",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8083-8087"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8083",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8083"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8082",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8082"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8081",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8081"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8080-HTTP-HTTPS-proxy",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8080"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8019",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8019"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8014",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8014"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8010",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8010"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8009",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8009"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8002-8079",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8002-8079"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8002-8009-2hr",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8002-8009"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8000-8999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8000-8999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8000-8012",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8000-8012"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-high-ports",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1024-65535"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-903",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "903"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-25",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "25"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "u-1434-MS-SQL-Monitor-UDP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "1434"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_UDP_Service_137-138__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "138"
+        },
+        {
+          "protocol": "udp",
+          "ports": "137"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_TCP_Service_5601",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdst_MMI-AD_tcp_protocols__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "88"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "389"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "636"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "445"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "139"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1723"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3268"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3269"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5190"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5025"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5100"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5050"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5001-5024"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5026-5049"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5051-5099"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5101-5189"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5191-5300"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_tcp_Any__GRP",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5190"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2626"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18191"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18192"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18190"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18262"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18263"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4433"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18221"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18205"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18202"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18266"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18301"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1494"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "16384"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "455"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "453"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1074"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6129"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "411-412"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "710"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "709"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2010"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "256"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18208"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18193"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "900"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "259"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18181"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18187"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18265"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18210"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18211"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18264"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "265"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18184"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "257"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "258"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "19190"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18185"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18186"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18207"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18231"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18183"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18232"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "65524"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "261"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "264"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "19191"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18182"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7001"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6346"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6347"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6970"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8200"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1720"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8080"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31785"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31787"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31788"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31790"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31792"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5500-5503"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1027"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "500"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1111"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1029"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1024"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1214"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1212"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "88"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "17300"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1434"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1433"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1863"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6891-6900"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5025"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4666"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1035"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3306"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "524"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4444"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5555"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7777"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8888"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8875"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2649"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2651"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1570"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1571"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5432"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1097-1098"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6374"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7070"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2998"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3389"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1025"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1337"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3002"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3001"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "27374"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1243"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1503"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "49"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3464"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3466"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "44001"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "44002"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "44003"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5600"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7002-7006"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7012-7016"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8000-8009"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8009"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8010"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8081-8084"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8090-8099"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8091-8095"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "81"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8443-8470"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8444"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8445"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8447-8460"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3456"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5534"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2004-2005"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1524"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1234"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18300"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1081"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6000-6063"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1031"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5100"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5050"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "13"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "9"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "53"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4661"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4662"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "512"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "79"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "21"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "70"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "80"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "443"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "113"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "143"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6660-6670"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "389"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "636"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "513"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1352"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "515"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "445"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "139"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1755"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "15"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2049"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "119"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "123"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5631"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2299"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "109"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "110"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1723"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "554"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5510"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "514"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "25"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1521"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1525"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1526"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "22"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "23"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "37"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "10-12"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "10000-11000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1001-1023"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1026"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1028"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1030"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1032-1034"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1036-1073"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1075-1080"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1082-1096"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1099-1110"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "11001-12000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "111-112"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1112-1211"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "114-118"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "120-122"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "12001-12003"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "12004-12018"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "12019-12020"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "12021-12061"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "12062"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "12063-16383"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1213"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1215-1233"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1235-1242"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "124-134"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1244-1336"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1338-1351"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1353-1432"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "136-138"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "14"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "140-142"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1435-1493"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "144-209"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1495-1502"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1504-1520"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1522-1523"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1527-1569"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1572-1687"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "16-20"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "16385-17299"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1689-1719"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1721-1722"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1724-1754"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "17301-18180"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1756-1862"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18188-18189"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18194-18201"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18203-18204"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18206"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18209"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18212-18220"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18222-18230"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18233-18261"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18267-18299"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "18302-19189"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1864-1999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "19192-22442"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2-6"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2001-2003"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2006-2009"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2011-2048"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2050-2298"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "211-255"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "22444-27373"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2300-2625"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "24"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "26-36"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "260"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "262-263"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2627-2648"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2650"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2652-2966"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "266-380"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "27375-31784"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2967"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2968"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2969-2997"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "2999-3000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3003-3267"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31786"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31789"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31791"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "31793-38292"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3270-3305"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3307-3388"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3390-3455"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3457-3463"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3465"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3467-3800"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "38-48"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3801"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3802"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3803"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3804-3999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "381-383"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "38293"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "38294-44000"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "384-388"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "390-410"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4001-4432"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "413-442"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "44004-65523"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4435-4443"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "444"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4445-4660"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "446-452"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "454"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "456-463"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "465-499"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4663-4665"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4667-4999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "50-52"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5001-5024"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "501-511"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5026-5049"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5051-5099"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5101-5189"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "516-523"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5191-5300"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "525-539"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5301-5431"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "54-69"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "541-553"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5433-5499"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5504-5509"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5511-5533"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5535-5554"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "555-635"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5556-5598"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5599"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5601"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5602-5630"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5632-5721"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5723-5999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6064-6128"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6130-6345"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6348-6373"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "637-708"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6375-6659"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "65525-65535"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6671-6890"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6901-6969"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "6971-6999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7007-7011"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7017-7069"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7071-7776"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "71-78"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "711-899"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "7778-7999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8011-8079"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8085-8087"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8089"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8100-8199"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "82-87"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8201-8279"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8280"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8281-8287"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8288"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8289"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8290-8442"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8471-8874"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8876-8887"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8889-9388"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "89-108"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "901"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "904-999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "9390-9999"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "540"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "210"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "22443"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3269"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "44001-44003"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "464"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "5722"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "9389"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "3268"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "1688"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "902-903"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "4434"
+        },
+        {
+          "protocol": "tcp",
+          "ports": "8088"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_UDP_Service_8243",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "8243"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_901",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "901"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_89-108",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "89-108"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8889-9388",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8889-9388"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8289",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8289"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8088",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8088"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_711-899",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "711-899"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_6901-6969",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "6901-6969"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5723-5999",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5723-5999"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5535-5554",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5535-5554"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_5504-5509",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5504-5509"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_525-539",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "525-539"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_456-463",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "456-463"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_454",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "454"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3803",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3803"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3801",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3801"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3467-3800",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3467-3800"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3390-3455",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3390-3455"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_3270-3305",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3270-3305"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_2968",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "2968"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_22443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "22443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1495-1502",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1495-1502"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_135",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "135"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_12062",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12062"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_12004-12018",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "12004-12018"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_11001-12000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "11001-12000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1099-1110",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1099-1110"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_9985",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9985"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_8000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_5600",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5600"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_1099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9643",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9643"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-9000-9020",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9000-9020"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-7590",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "7590"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4900",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4900"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4884-4885",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4884-4885"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-464",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "464"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-4141",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "4141"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-383",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3218",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3218"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3003",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3003"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-3001",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3001"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-19093",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "19093"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-135-139",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "135-139"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1080",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1080"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5590-5600",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5590-5600"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_5100",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "5100"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_50071-50079",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50071-50079"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_41000-41099",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "41000-41099"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_3803",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "3803"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8444",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8444"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8244",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8244"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-81",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "81"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-8002",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8002"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "udp-517",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "udp",
+          "ports": "517"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_1556",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1556"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp_11223",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "11223"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-88",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "88"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-50601",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "50601"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-1025-5000",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "1025-5000"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_9004",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "9004"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tce_TCP_Service_28443",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "28443"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "t-873",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "873"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "torfwcsdsis_TCP_Service_8085-8087",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "8085-8087"
+        }
+      ]
+    },
+    "Nested Apps": []
+  },
+  {
+    "Name": "tcp-381-383",
+    "Configuration": {
+      "proto-ports": [
+        {
+          "protocol": "tcp",
+          "ports": "381-383"
+        }
+      ]
+    },
+    "Nested Apps": []
+  }
+]
